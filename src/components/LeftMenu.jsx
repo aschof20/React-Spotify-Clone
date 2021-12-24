@@ -4,6 +4,8 @@ import { FaSpotify, FaEllipsisH } from 'react-icons/fa';
 import { BiSearchAlt } from 'react-icons/bi';
 import { Menu } from './Menu';
 import { MenuList } from './MenuList';
+import { MenuPlaylist } from './MenuPlaylist';
+import { Tracklist } from './Tracklist';
 
 const LeftMenu = () => {
     return (
@@ -11,7 +13,7 @@ const LeftMenu = () => {
             <div className="logoContainer">
                 <i><FaSpotify /></i>
                 <h2>Spotify</h2>
-                <i><FaEllipsisH/></i>
+                <i><FaEllipsisH className='ellipse'/></i>
                 </div>
             <div className="searchBox">
                 <input type="text" placeholder='Search...' />
@@ -21,7 +23,8 @@ const LeftMenu = () => {
 
             </div>
             <Menu title={'Menu'} menuObject={ MenuList}/>
-
+            <MenuPlaylist />
+            <Tracklist/>
 			</div>
 		);
 }
