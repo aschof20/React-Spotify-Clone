@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react';
+import React, {useEffect} from 'react';
 import '../assets/styles/mainContainer.css';
 import { Banner } from '../components/Banner';
 import { FaUsers } from 'react-icons/fa';
