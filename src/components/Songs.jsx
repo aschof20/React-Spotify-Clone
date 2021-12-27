@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Songs = [
 	{
 		id: 1,
@@ -48,6 +46,7 @@ const Songs = [
 	},
 	{
 		id: 6,
+		favourite: false,
 		songName: 'Your Woman',
 		artist: 'White Town',
 		song: 'https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Ringtone%2FWhite-Town-Your-Women.mp3?alt=media&token=91817445-98ba-4a99-a4b4-6218f2742eb3',
